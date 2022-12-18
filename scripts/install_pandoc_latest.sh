@@ -5,6 +5,8 @@ set -e
 # if RStudio is installed , but latest otherwise
 
 PANDOC_VERSION="default"
+WHICH_PANDOC=$(which pandoc)
+echo "Pandoc installed to " $WHICH_PANDOC
 
 apt-get update && apt-get -y install wget
 
