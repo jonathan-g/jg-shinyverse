@@ -1,4 +1,4 @@
-FROM rocker/shiny-verse:4.2.2
+FROM rocker/shiny-verse:4.3.1
 
 COPY scripts/install_pandoc_latest.sh rocker_scripts
 
